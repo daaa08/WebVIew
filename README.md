@@ -26,3 +26,10 @@ webView.getSettings().setJavaScriptEnabled(true);
 
 
 ## startsWith
+
+- 문자열의 시작 문자 검사
+``` java
+if(!url.startsWith("http")){
+    url = "http://" + url;
+}
+```
